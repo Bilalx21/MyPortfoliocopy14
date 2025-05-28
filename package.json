@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Bilalx21.github.io/MyPortfoliocopy14",
+  "homepage": "https://bilalx21.github.io/MyPortfoliocopy14",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

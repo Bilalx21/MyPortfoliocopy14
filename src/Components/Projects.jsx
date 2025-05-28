@@ -4,43 +4,42 @@ import { motion } from "framer-motion";
 // Projects data stays the same
 const projectsData = [
   {
-    image: "/MyPortfoliocopy14/images/Internal-Auditing.jpg",
+    image: "Internal-Auditing.jpg",
     title: "Internal Audit – Cyber Risk Compliance",
     description: "Designed an internal audit framework addressing GDPR, SOX, and ISO 27001 standards. Assessed compliance readiness and identified key cyber risk exposures in financial systems.",
     technologies: ["ISO 27001", "SOX", "GDPR", "Python", "Excel"],
   },
   {
-    image: "/MyPortfoliocopy14/images/The-5-Biggest-Problems-With-Blockchain-Technology-Everyone-Must-Know-About-1.webp",
+    image: "The-5-Biggest-Problems-With-Blockchain-Technology-Everyone-Must-Know-About-1.webp",
     title: "Blockchain Assurance Research",
     description: "Studied the intersection of blockchain transparency, smart contract auditability, and regulatory compliance gaps. Proposed a conceptual framework for blockchain risk assurance.",
     technologies: ["Blockchain", "Smart Contracts", "Compliance", "GRC"],
   },
   {
-    image: "/MyPortfoliocopy14/images/shutterstock_2460260159.webp",
+    image: "shutterstock_2460260159.webp",
     title: "Green Energy Project Valuation",
     description: "Valued a solar energy infrastructure project using DCF and Monte Carlo simulation. Integrated ESG risk factors and climate considerations using real-world data from MSCI.",
     technologies: ["DCF", "Monte Carlo", "MSCI ESG", "Excel", "Python"],
   },
   {
-    image: "/MyPortfoliocopy14/images/augmenter-montant-credit-092357.jpg",
+    image: "augmenter-montant-credit-092357.jpg",
     title: "Private Credit Deal Structuring",
     description: "Modeled a senior secured private credit loan, assessing borrower risk, covenant strength, downside protection, and collateral recovery scenarios.",
     technologies: ["Excel", "Credit Analysis", "Loan Structuring", "Risk Modeling"],
   },
   {
-    image: "/MyPortfoliocopy14/images/1707377776586.jpeg",
+    image: "1707377776586.jpeg",
     title: "Corporate Financial Restructuring",
     description: "Optimized the capital structure of a mid-sized company by modeling debt refinancing strategies aimed at improving financial performance and shareholder value.",
     technologies: ["Capital Structure", "Excel", "Valuation", "Debt Refinancing"],
   },
   {
-    image: "/MyPortfoliocopy14/images/recycled-materials_recycling-technology.jpg",
+    image: "recycled-materials_recycling-technology.jpg",
     title: "AI-Powered Recyclable Materials Exchange Platform",
     description: "An app leveraging deep learning and AI technologies, including computer vision for material categorization and an AI-powered chatbot for customer support.",
     technologies: ["Jupyter Notebook", "AWS", "React", "SQL"],
   },
 ];
-
 
 
 // Updated ScrollReveal component
