@@ -4,42 +4,44 @@ import { motion } from "framer-motion";
 // Projects data stays the same
 const projectsData = [
   {
-    image: "iStock-506443992.jpg",
-    title: "Tax Optimization Case Study",
-    description: "Analyzed a company's financial statements and designed tax optimization strategies that comply with regulations.",
-    technologies: ["Excel", "PowerBI", "QuickBooks", "TurboTax API"],
+    image: "/MyPortfoliocopy14/images/Internal-Auditing.jpg",
+    title: "Internal Audit – Cyber Risk Compliance",
+    description: "Designed an internal audit framework addressing GDPR, SOX, and ISO 27001 standards. Assessed compliance readiness and identified key cyber risk exposures in financial systems.",
+    technologies: ["ISO 27001", "SOX", "GDPR", "Python", "Excel"],
   },
   {
-    image: "/image-blog-time-series-analysis.avif",
-    title: "Cash Flow Forecasting and Budget Variance Analysis Using Time Series Models",
-    description: "Used historical stock price data to predict future price movements and analyzed market volatility with algorithmic trading.",
-    technologies: ["Python", "Pandas", "NumPy", "Scikit-learn", "Prophet"],
+    image: "/MyPortfoliocopy14/images/The-5-Biggest-Problems-With-Blockchain-Technology-Everyone-Must-Know-About-1.webp",
+    title: "Blockchain Assurance Research",
+    description: "Studied the intersection of blockchain transparency, smart contract auditability, and regulatory compliance gaps. Proposed a conceptual framework for blockchain risk assurance.",
+    technologies: ["Blockchain", "Smart Contracts", "Compliance", "GRC"],
   },
   {
-    image: "/201809-business-valuation.jpg",
-    title: "Valuation Project",
-    description: "Performed a detailed valuation of a publicly traded company using methods like DCF, comparable company analysis, and precedent transactions.",
-    technologies: ["Excel", "Bloomberg Terminal", "Capital IQ", "VBA"],
+    image: "/MyPortfoliocopy14/images/shutterstock_2460260159.webp",
+    title: "Green Energy Project Valuation",
+    description: "Valued a solar energy infrastructure project using DCF and Monte Carlo simulation. Integrated ESG risk factors and climate considerations using real-world data from MSCI.",
+    technologies: ["DCF", "Monte Carlo", "MSCI ESG", "Excel", "Python"],
   },
   {
-    image: "/US59LM3GUoq7EowEWQtMCd.jpg",
-    title: "Sustainable Investment Portfolio",
-    description: "Designed a portfolio focused on ESG-compliant companies, showcasing sustainable finance practices.",
-    technologies: ["R", "ESG Analytics API", "FactSet", "Tableau"],
+    image: "/MyPortfoliocopy14/images/augmenter-montant-credit-092357.jpg",
+    title: "Private Credit Deal Structuring",
+    description: "Modeled a senior secured private credit loan, assessing borrower risk, covenant strength, downside protection, and collateral recovery scenarios.",
+    technologies: ["Excel", "Credit Analysis", "Loan Structuring", "Risk Modeling"],
   },
   {
-    image: "/advanced-authentication-blog-image.jpg.optimal.jpg",
-    title: "Modern Authentication Methods",
-    description: "Worked on a comprehensive research project focusing on modern authentication techniques, including Single Factor Authentication (SFA), Two-Factor Authentication (2FA), and Multi-Factor Authentication (MFA).",
-    technologies: ["Honeytoken", "Firebase Auth", "Cryptography", "OAuth 2.0"],
+    image: "/MyPortfoliocopy14/images/1707377776586.jpeg",
+    title: "Corporate Financial Restructuring",
+    description: "Optimized the capital structure of a mid-sized company by modeling debt refinancing strategies aimed at improving financial performance and shareholder value.",
+    technologies: ["Capital Structure", "Excel", "Valuation", "Debt Refinancing"],
   },
   {
-    image: "/DALL·E 2025-01-13 20.31.45 - A sleek and modern user interface (UI) design for a recyclable material exchange platform called 'Renewatrade'. The UI features a clean dashboard layo.webp",
+    image: "/MyPortfoliocopy14/images/recycled-materials_recycling-technology.jpg",
     title: "AI-Powered Recyclable Materials Exchange Platform",
     description: "An app leveraging deep learning and AI technologies, including computer vision for material categorization and an AI-powered chatbot for customer support.",
     technologies: ["Jupyter Notebook", "AWS", "React", "SQL"],
   },
 ];
+
+
 
 // Updated ScrollReveal component
 const ScrollReveal = ({ children }) => {

@@ -38,7 +38,7 @@ const Hero = () => {
           </h3>
 
           <p className="text-sm text-gray-400 md:text-base">
-          I'm an MSc Finance student at Montpellier Business School with a Bachelor's in Cybersecurity from the University of Wollongong, combining technical expertise with financial acumen. Driven by a passion for Financial Advisory, Compliance, Corporate Finance, Quantitative Analysis, Sustainable Finance, Financial Controlling, Accounting and Internal Audit. I bring a unique perspective to problem-solving. With experience at Apple as a Sales Specialist. I'm deeply interested in fintech, economics, and sustainability, aiming to bridge innovation with impact in every role I take on.
+          I'm Bilal, a Master of Science in Finance student with a cybersecurity edge, exploring how AI, audit, ESG, and blockchain can make finance smarter and more secure. I’m into anything that combines ethics, data, and innovation to solve real-world problems in financial systems. Right now, I’m building a career at the intersection of compliance, tech, and sustainability.
           </p>
         </motion.div>
       </div>
